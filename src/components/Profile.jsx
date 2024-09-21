@@ -156,12 +156,12 @@ const Profile = () => {
       <div className={`md:w-1/2 bg-gradient-to-r from-orange-500 to-purple-600 shadow-2xl rounded-lg overflow-hidden p-4 md:p-6 ${profile ? 'mt-0' : 'mt-10'}`}>
         <div className="relative">
           <img
-            src={profile?.img ? `http://127.0.0.1:8000/${profile.img}` : "/default-profile.png"}
+            src={profile?.img ? `https://whiskerwag-backend.onrender.com/${profile.img}` : "/default-profile.png"}
             alt="Profile"
             className="w-full h-48 object-cover rounded-t-lg"
           />
           <img
-            src={profile?.img ? `http://127.0.0.1:8000/${profile.img}` : "/default-profile.png"}
+            src={profile?.img ? `https://whiskerwag-backend.onrender.com/${profile.img}` : "/default-profile.png"}
             alt="Profile"
             className="w-24 h-24 rounded-full border-4 border-white absolute -bottom-12 left-4"
           />
