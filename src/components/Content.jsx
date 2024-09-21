@@ -145,7 +145,7 @@ const Content = ({ method, setShowForm, showForm }) => {
 
   return (
     <main
-      className={`flex items-center p-6 ${
+      className={`flex  p-6 ${
         theme === 'dim'
           ? 'bg-gray-800'
           : 'bg-gradient-to-r from-orange-400 to-yellow-400'
